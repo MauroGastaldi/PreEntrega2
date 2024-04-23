@@ -168,6 +168,9 @@ padding: 20px;
 .main-contacto{
     margin: 20px;
 }
+#floatingTextarea{
+    margin-top: 20px;
+}
 
 
 
@@ -196,9 +199,9 @@ padding: 20px;
 .nosotros-contenido {
     text-align: center;
     font-size: 1rem;
-    width: 400px;
+    width: 350px;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1; /* Coloca el texto sobre la imagen */

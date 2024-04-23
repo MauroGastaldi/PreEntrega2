@@ -145,7 +145,17 @@ padding: 10px;
 
 
 /* -------PREGUNTAS FRECUENTES------ */
+.p-p-frecuentes {
+    display: inline-block;
+padding: 20px;
+}
 
+.p-p-frecuentes h3 {
+    margin: 10px;
+}
+.p-p-frecuentes p{
+    font-size: 1rem;
+}
 
 
 

@@ -39,7 +39,9 @@ h2 {
 .navbar-toggler{
     margin-right: 20px;
  }
-
+.nav-item{
+   
+}
 
 
 .wapp {
@@ -61,6 +63,9 @@ h2 {
  
 }
 /* -------INICIO------ */
+.index-body{
+    background-color: rgba(244, 244, 244, 0.69);
+}
 .index-main {
     position: relative;
     height: 100vh; Ajusta la altura según sea necesario
@@ -201,14 +206,15 @@ padding: 20px;
 }
 .nosotros-contenido {
     text-align: center;
-    font-size: 1rem;
-    width: 350px;
+    width: 300px;
+    /* font-size: 1rem; */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1; 
     color: rgb(33, 33, 33); 
+  
 }
 
 
@@ -219,7 +225,10 @@ padding: 20px;
 
 
 /* --------PSEUDOCLASES-------- */
-
+.nav-item:hover {
+    font-weight: bold;
+    font-size: medium;
+}
 
 
 
@@ -232,31 +241,10 @@ padding: 20px;
 /*- Mobile first => min-width-*/
 
 
-/* Mobile */
-@media(min-width: 426px){
-    /* .navbar-brand img{ */
-        width: 100px;
-    }
-}
-
-
-
-
 /* Tablet */
-@media(min-width: 540px){
-    .navbar-brand img{
-        width: 100px;
+@media (min-width: 540px) {
+    .nosotros-contenido {
+        width: 80%;
     }
+}
   
-    .texto-superpuesto .texto{
-        width: 500px;
-    }
-}
-   .nosotros-contenido{
-    /* position: relative; */
-    height: 100vh;
-    width: 700px;
-}
-.nosotros-parrafo{
-   margin: 20px 
-}

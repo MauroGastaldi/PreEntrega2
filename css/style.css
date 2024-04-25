@@ -30,6 +30,10 @@ h2 {
     margin: 40px;
 }
 /* -------NAVEGACIÓN------ */
+.container-fluid{
+    width: 100% !important;
+    background-color: #F8F3F1;
+}
 .navbar-brand img{
     width: 80px !important;
 }
@@ -71,55 +75,60 @@ h2 {
     height: 100vh; Ajusta la altura según sea necesario
 }
 .blur-overlay {
-    background-image: url(https://cdn.lifeofpix.com/113763/_w1800/306714/lifeofpix-rawpixelcom1624-306714.webp);
-    position: absolute;
-    top: 10%;
-    right: 0;
-    width: 70%;
-    height: 100%;
-    filter: blur(15px); /* Aplica un filtro de desenfoque al fondo */
+    /* background-image: url(https://cdn.lifeofpix.com/113763/_w1800/306714/lifeofpix-rawpixelcom1624-306714.webp); */
     
 }
 .texto-superpuesto {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1; /* Coloca el texto sobre la imagen */
     color: rgb(33, 33, 33); /* Ajusta el color del texto para que se vea sobre la imagen */
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 900px;
 }
 
 
 
 .titulo{
-    font-size: 35px;
+    font-size: 55px;
     margin: 20px;
 }
 .texto{
+
     font-size: 1rem;
-    width: 300px;
+    width: 400px;
     text-align: center;
 }
 
 /* <!-- Carousel --> */
 
-/* Achica la caja del carrousel y hace que las fechas queden superpuestas con las imagenes */
 .carousel-inner {
-height: 800px !important;
+height: 700px !important;
+
 }
-.carousel-inner{
-  left: 60%;
-}
+
 .carousel{
     width: 600px;
     margin: auto;
 }
-
-/* Quitando la clase w-100 de todas las imagenes y sumando esta altura, le da el mismo alto a todas las imagenes para que queden parejas */
 .carousel-item img{
-    height: 800px;
+    height: 700px;
     background-size: cover;
 }
+#carouselExampleIndicators{
+    width: 450px;
+}
+.carousel-indicators{
+    display: flex;
+}
+
+
 
 h1{
     text-align: center;
@@ -270,5 +279,22 @@ padding: 20px;
     .nosotros-contenido {
         width: 80%;
     }
+    /* <!-- Carousel --> */
+
+.carousel-inner {
+    height: 800px !important;
+    }
+    .carousel-inner{
+      left: 60%;
+    }
+    .carousel{
+        width: 600px;
+        margin: auto;
+    }
+    .carousel-item img{
+        height: 800px;
+        background-size: cover;
+    }
+    
 }
   

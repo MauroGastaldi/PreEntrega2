@@ -380,7 +380,7 @@ padding: 20px;
 
 
 /* -------Desktop--------- */
-@media (min-width: 540px) {
+@media (min-width: 991px) {
     .nosotros-contenido {
         width: 80%;
     }

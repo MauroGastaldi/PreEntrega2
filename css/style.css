@@ -30,6 +30,9 @@ h2 {
     margin: 40px;
 }
 /* -------NAVEGACIÓN------ */
+.navbar navbar-expand-lg bg-body-tertiary{
+    padding-bottom: 0px!important;
+}
 .container-fluid{
     width: 100% !important;
     background-color: #F8F3F1;
@@ -121,7 +124,7 @@ height: 700px !important;
     background-size: cover;
 }
 #carouselExampleIndicators{
-    width: 400px;
+    width: 375px;
 }
 
 
@@ -187,7 +190,7 @@ h1{
     background-size: 18rem;
     background-repeat: no-repeat;
     border-radius: 25px;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -318,22 +321,58 @@ padding: 20px;
     .nosotros-contenido {
         width: 80%;
     }
-    /* <!-- Carousel --> */
+
+/* -----iNICIO------- */
+.index-body{
+    background-color: #F8F3F1;
+}
+    .texto-superpuesto {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1; /* Coloca el texto sobre la imagen */
+        color: rgb(33, 33, 33); /* Ajusta el color del texto para que se vea sobre la imagen */
+        width: 800px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+ /* <!-- Carousel --> */
+#carouselExampleIndicators{
+    display: flex;
+    justify-content: flex-end;
+        width: auto;
+    }
 
 .carousel-inner {
-    height: 800px !important;
-    }
-    .carousel-inner{
-      left: 60%;
-    }
-    .carousel{
-        width: 600px;
-        margin: auto;
-    }
-    .carousel-item img{
-        height: 800px;
-        background-size: cover;
+    height: 750px !important;
+    width: 500px;
     }
     
-}
+    .carousel-item img{
+        height: 750px;
+        background-size: cover;
+    }
+ 
+ 
+/* -----NOSOTROS------- */
+.nosotros-contenido {
+    text-align: center;
+    width: 600px;
+    /* font-size: 1rem; */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    color: rgb(33, 33, 33); 
   
+}   
+    
+
+
+
+}

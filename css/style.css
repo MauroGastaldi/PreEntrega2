@@ -101,7 +101,31 @@ h2 {
     text-align: center;
 }
 
+/* <!-- Carousel --> */
 
+/* Achica la caja del carrousel y hace que las fechas queden superpuestas con las imagenes */
+.carousel-inner {
+height: 800px !important;
+}
+.carousel-inner{
+  left: 60%;
+}
+.carousel{
+    width: 600px;
+    margin: auto;
+}
+
+/* Quitando la clase w-100 de todas las imagenes y sumando esta altura, le da el mismo alto a todas las imagenes para que queden parejas */
+.carousel-item img{
+    height: 800px;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #555555;
+}
 
 /* -------PRODUCTOS------ */
 .seccion-productos{
